@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  labelstudio:
+    image: heartexlabs/label-studio:latest
+    ports:
+      - '8081:8080'
+    volumes:
+      - ./mydata:/label-studio/data
+    environment:
+      LABEL_STUDIO_HOST: '0.0.0.0'

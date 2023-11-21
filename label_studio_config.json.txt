@@ -1,0 +1,11 @@
+{
+  "labeling_config": "./config.xml",
+  "input_dir": "./annotated_images",
+  "output_dir": "./output",
+  "input_types": ["image"],
+  "input_config": {
+    "image": {
+      "label": "Image"
+    }
+  }
+}

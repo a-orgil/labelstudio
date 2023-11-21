@@ -1,0 +1,14 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+*.pth
+*.pt
+__pycache__/
+db.sqlite3
+media
+static
+.DS_Store
+devcontainer.json
+local
+annotated_images/
