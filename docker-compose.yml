@@ -7,4 +7,4 @@ services:
     volumes:
       - ./mydata:/label-studio/data
     environment:
-      LABEL_STUDIO_HOST: '0.0.0.0'
+      LABEL_STUDIO_HOST: 'http://localhost:8081'
