@@ -5,6 +5,6 @@ services:
     ports:
       - '8081:8080'
     volumes:
-      - ./mydata:/label-studio/data
+      - .:/label-studio/data
     environment:
       LABEL_STUDIO_HOST: 'http://localhost:8081'

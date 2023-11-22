@@ -4,6 +4,8 @@
 *.pyc
 *.pth
 *.pt
+*.jpg
+*.png
 __pycache__/
 db.sqlite3
 media
@@ -11,4 +13,5 @@ static
 .DS_Store
 devcontainer.json
 local
-annotated_images/
+annotated_images
+mydata
